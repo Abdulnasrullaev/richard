@@ -52,13 +52,13 @@ function Home() {
             <p className='titlee'>
                 Aenean Consectetur <br/>
                 <span className='text-1'>
-            Cay sociis nato
+            Cay sociis nato <br/>
             que penatibus et
         </span> <br/>
                 <span className='text-2'>
-            Lorem ipsum dolor sit amet, consectetur
+            Lorem ipsum dolor sit amet, consectetur <br/>
             adipiscing elit. Suspendisse varius enim
-            in eros elementum tristique.
+            in <br/> eros elementum tristique.
         </span>
             </p>
             <img src={menu1}/>
@@ -71,9 +71,9 @@ function Home() {
              Amet Ipsum
         </span> <br/>
                 <span className='text-2'>
-            Lorem ipsum dolor sit amet, consectetur
+            Lorem ipsum dolor sit amet, consectetur <br/>
             adipiscing elit. Suspendisse varius enim
-            in eros elementum tristique.
+            in <br/> eros elementum tristique.
         </span>
             </p>
 
@@ -83,12 +83,12 @@ function Home() {
             <p className='titlee'>
                 Aenean Consectetur Porta <br/>
                 <span className='text-1'>
-           Magna Porta Sit Bibendum
+           Magna Porta Sit <br/> Bibendum
         </span> <br/>
                 <span className='text-2'>
-            Lorem ipsum dolor sit amet, consectetur
+            Lorem ipsum dolor sit amet, consectetur <br/>
             adipiscing elit. Suspendisse varius enim
-            in eros elementum tristique.
+            in <br/> eros elementum tristique.
         </span>
             </p>
             <img src={menu1}/>

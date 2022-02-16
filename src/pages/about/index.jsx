@@ -1,8 +1,10 @@
 import React from 'react';
-import {Data, Lists} from "./style";
+import {Data, Footer, Lists, LogoCompany} from "./style";
 import menu_list1 from '../../assest/menu-list1.png'
 import menu_list2 from '../../assest/menu-list2.png'
-
+import logoCompany from '../../assest/logo-compny.png'
+import bgImage from '../../assest/background.png'
+import logotip from '../../assest/logotip.png'
 
 function About() {
     return (
@@ -57,10 +59,10 @@ Ullamcorper
                     </p>
 
                 </div>
-                <img src={menu_list1}/>
+                <img alt='hello' src={menu_list1}/>
             </Lists>
             <Lists>
-                <img src={menu_list2}/>
+                <img alt='hello-again' src={menu_list2}/>
                 <div className='list'>
 
                 <span>
@@ -87,6 +89,41 @@ Ullamcorper
                 </div>
 
             </Lists>
+            <LogoCompany>
+                <img src={logoCompany} className='logo'/>
+                <img src={bgImage} className='bgImage'/>
+
+                <div className='bg-Images'>
+                    <p>Ready to get started?</p>
+                    <button id='download'>
+                        download now
+                    </button>
+                    <button>
+                        get in touch
+                    </button>
+                </div>
+            </LogoCompany>
+            <Footer>
+                <p className='get'>
+                    Get updates from Ruchard <br/>
+                    <span>
+        New course alerts, discounts and free lessons
+    </span>
+                </p>
+                <input id='text' type="text"/>
+                <button>
+                    Subscribe
+                </button> <br/>
+                <img src={logotip}/>
+                <nav>
+                    <li><a href='#'>email</a></li>
+                    <li><a href='#'>instagram</a></li>
+                    <li><a href='#'>facebook</a></li>
+                    <li><a href='#'>twitter</a></li>
+                    <li><a href='#'>image license info</a></li>
+                    <li><a href='#'>made by abdullo nasrullaev</a></li>
+                </nav>
+            </Footer>
         </>
     )
         ;

@@ -16,7 +16,7 @@ export const Navbar = styled.div`
   nav {
     width: fit-content;
     text-transform: capitalize;
-    margin: 27px 120px;
+    margin: 27px auto;
     display: flex;
     list-style: none;
 
@@ -32,6 +32,24 @@ export const Navbar = styled.div`
 
   @media screen and (max-width: 768px) {
     width: 100%;
+    nav{
+      margin: 24px 10px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    display: flow-root;
+    img{
+      width: fit-content;
+      margin: 20px 160px;
+    }
+    nav{
+      display: grid;
+      margin: 24px auto;
+   li{
+     margin: 10px auto;
+   }
+    }
   }
 `;
 
@@ -74,6 +92,30 @@ export const Homes = styled.div`
   @media screen and (max-width: 768px) {
     width: 100%;
   }
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flow-root;
+    .text{
+      text-align: center;
+      width: fit-content;
+      .logo{
+        line-height: 120px;
+        margin: auto;
+        font-size: 35px;
+        padding: 40px 0;
+      }
+      .launch{
+        padding: 20px 0;
+        font-size: 18px;
+      }
+    }
+    .image-1{
+      width: 90%;
+      margin: 10px auto;
+    }
+  }
 `
 
 export const SectionTwo = styled.div`
@@ -104,6 +146,17 @@ export const SectionTwo = styled.div`
   @media screen and (max-width: 768px) {
     width: 100%;
   }
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    text-align: center;
+    .title{
+      font-size: 20px;
+      span{
+        font-size: 18px;
+        margin: 30px 0;
+      }
+    }
+  }
 `
 
 export const SectionThree = styled.div`
@@ -113,7 +166,6 @@ export const SectionThree = styled.div`
   justify-content: center;
 
   .titlee {
-    width: 24%;
     color: #A8A8A8;
 
     margin: 120px auto;
@@ -136,6 +188,15 @@ export const SectionThree = styled.div`
 
   @media screen and (max-width: 768px) {
     width: 100%;
+  }
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    text-align: center;
+   display: flow-root;
+    .title{
+      width: 100%;
+      line-height: 30px;
+    }
   }
 `
 
@@ -162,5 +223,20 @@ export const SectionFour = styled.div`
 
   @media screen and (max-width: 768px) {
     width: 100%;
+  }
+  @media screen and (max-width: 480px) {
+    width: 100%;
+    text-align: center;
+    display: flow-root;
+    .card{
+      width: fit-content;
+      margin: 40px 0;
+    text-align: center;
+      .title-4{
+        margin: 30px auto;
+      width: fit-content;
+    }
+      
+    }
   }
 `
