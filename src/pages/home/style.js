@@ -32,8 +32,12 @@ export const Navbar = styled.div`
 
   @media screen and (max-width: 768px) {
     width: 100%;
+    img{
+      margin: 20px;
+      width: 14%;
+    }
     nav{
-      margin: 24px 10px;
+      margin: 24px auto;
     }
   }
   @media screen and (max-width: 480px) {
@@ -91,6 +95,25 @@ export const Homes = styled.div`
 
   @media screen and (max-width: 768px) {
     width: 100%;
+    text-align: center;
+    display: flow-root;
+    .text{
+      width: fit-content;
+      margin: 50px auto;
+      button{
+        margin: 20px auto;
+      }
+      .logo{ font-size: 60px;
+      }
+      .launch{
+        font-size: 18px;
+      margin: -40px 0 20px 0;
+      }
+    }
+    .image-1{
+      width: 70%;
+      position: center;
+    }
   }
   @media screen and (max-width: 480px) {
     width: 100%;

@@ -59,10 +59,10 @@ Ullamcorper
                     </p>
 
                 </div>
-                <img alt='hello' src={menu_list1}/>
+                <img className='hello-again' src={menu_list1}/>
             </Lists>
             <Lists>
-                <img alt='hello-again' src={menu_list2}/>
+                <img className='hello-again' src={menu_list2}/>
                 <div className='list'>
 
                 <span>

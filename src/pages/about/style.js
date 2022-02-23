@@ -65,13 +65,31 @@ export const Lists = styled.div`
     }
   }
 
-  img {
+  .hello-again {
     margin: 40px auto;
-    width: fit-content;
+    width: revert;
+    background-size: cover;
   }
 
   @media screen and (max-width: 768px) {
     width: 100%;
+    text-align: center;
+    display: table-footer-group;
+    .list {
+      padding: 10px;
+      margin: 20px auto;
+      width: fit-content;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    width: fit-content;
+    padding: 13px;
+    text-align: center;
+    .hello-again {
+      width: 90%;
+    }
+
   }
 `
 
@@ -81,7 +99,7 @@ export const LogoCompany = styled.div`
   color: white;
 
   .logo {
-    width: fit-content;
+    width: 94%;
     margin: 40px auto;
   }
 
@@ -124,6 +142,25 @@ export const LogoCompany = styled.div`
 
   @media screen and (max-width: 768px) {
     width: 100%;
+    .bg-Images {
+      background-size: cover;
+      width: 100%;
+    }
+    .bgImage{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    width: fit-content;
+    text-align: center;
+    .logo {
+      padding: 10px;
+      width: 90%;
+    }
+
+    .bgImage {
+      width: 100%;
+    }
   }
 `
 
@@ -184,6 +221,7 @@ export const Footer = styled.div`
 
   @media screen and(max-width: 768px) {
     width: fit-content;
+
     nav {
       width: fit-content;
       margin: 20px auto;
